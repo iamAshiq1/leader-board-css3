@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: darkseagreen;
+}
+.fa-lightbulb{
+    margin-top: 18px;
+    font-size: 40px;
+    color: wheat;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(250, 248, 250);
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(91, 65, 185);
 }
 main{
     display: flex;
@@ -23,7 +46,7 @@ main{
     margin-bottom: 30px;
 }
 .section-title{
-    color: rgb(139, 5, 201);
+    color: rgb(157, 60, 202);
     margin-top: 3px;
 }
 .players{
@@ -98,7 +121,7 @@ main{
     color: gray;
 }
 .time{
-    background-color: lightpink;
+    background-color: rgba(255, 182, 193, 0.616);
     border-radius: 5%;
 }
 /*--------------------
