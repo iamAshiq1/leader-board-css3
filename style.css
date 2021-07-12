@@ -26,6 +26,10 @@ nav{
     justify-content: space-evenly;
     background-color: rgb(91, 65, 185);
 }
+nav li:hover{
+    background-color: rgb(35, 128, 145);
+    border-radius: 30px;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -113,6 +117,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.course-author{
+    color: orangered;
 }
 .fa-star.filled{
     color: goldenrod;
