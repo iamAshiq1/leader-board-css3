@@ -131,6 +131,9 @@ main{
 /* Mobile devies */
 
 @media only screen and (max-width: 650px) {
+    body{
+        margin: 0;
+    }
     .container{
         width: 100%;
     }
@@ -145,6 +148,9 @@ main{
 /* Tablet devices */
 
 @media only screen and (min-width: 650px) and (max-width: 1000px) {
+    body{
+        margin: 0;
+    }
     .container{
         width: 100%;
     }
