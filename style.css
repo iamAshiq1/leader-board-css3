@@ -44,8 +44,8 @@ main{
     width: 870px;
     height: 679;
     padding: 30px;
-    margin-top: 20px;
-    box-shadow: 5px 5px 20px rgb(160, 159, 159);
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 5px;
 
 }
@@ -103,7 +103,7 @@ main{
 .blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 25px;
+    grid-row-gap: 30px;
 }
 
 /* courses styles */
@@ -131,9 +131,14 @@ main{
 .fa-star.empty{
     color: gray;
 }
+span{
+    margin-right: 20px;
+}
 .time{
     background-color: rgba(255, 182, 193, 0.616);
-    border-radius: 5%;
+    border-radius: 20px;
+    padding: 2px 5px;
+    margin-right: 30px;
 }
 /*--------------------
      Media queries 
@@ -146,9 +151,6 @@ main{
         justify-content: left;
         overflow: hidden;
     }
-    .fa-lightbulb{
-        margin-right: 100px;
-    }
     .container{
         width: 100%;
     }
@@ -157,6 +159,7 @@ main{
     }
     .players, .blog{
         flex-direction: column;
+        
     }
 }
 
