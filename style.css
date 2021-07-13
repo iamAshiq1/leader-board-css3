@@ -64,16 +64,21 @@ main{
 }
 .section-title{
     color: rgb(157, 60, 202);
-    margin-top: 3px;
+    margin-top: 0;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
+    margin-top: 30px;;
 }
 .player{
     display: flex;
     align-items: center;
+}
+.player:hover{
+    background-color: rebeccapurple;
+    border-radius: 30px;
 }
 .player-name{
     margin-left: 10px;
@@ -97,10 +102,11 @@ main{
     height: 117px;
 }
 .blog-info{
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .blog-title{
-    font-size: 19px;
+    margin-top: 5px;
+    font-size: 18px;
     color: rgb(0, 0, 0);
 }
 .blog-author{
@@ -116,6 +122,11 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 30px;
+}
+.blog-title:hover{
+    color: rgb(24, 78, 196);
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 /* ---------------------------------------------- */
@@ -156,6 +167,10 @@ span{
     border-radius: 20px;
     padding: 2px 5px;
     margin-right: 30px;
+}
+.course-banner img:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
 }
 
 /* ---------------------------------------------------- */
