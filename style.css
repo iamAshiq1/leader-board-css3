@@ -8,6 +8,11 @@ body{
     margin-top: 18px;
     font-size: 40px;
     color: wheat;
+    margin-left: 400px;
+}
+.pp img{
+    align-items: center;
+    margin-top: 10px;
 }
 nav ul{
     display: flex;
@@ -19,11 +24,10 @@ nav li{
 nav a{
     text-decoration: none;
     color: rgb(250, 248, 250);
-    justify-content: space-between;
 }
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: rgb(91, 65, 185);
 }
 nav li:hover{
@@ -138,6 +142,13 @@ main{
 /* Mobile devies */
 
 @media only screen and (max-width: 650px) {
+    nav{
+        justify-content: left;
+        overflow: hidden;
+    }
+    .fa-lightbulb{
+        margin-right: 100px;
+    }
     .container{
         width: 100%;
     }
@@ -152,6 +163,10 @@ main{
 /* Tablet devices */
 
 @media only screen and (min-width: 650px) and (max-width: 1000px) {
+    nav{
+        justify-content: left;
+        overflow: hidden;
+    }
     .container{
         width: 100%;
     }
